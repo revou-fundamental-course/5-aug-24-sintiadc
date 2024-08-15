@@ -63,6 +63,25 @@ function calculateBMI() {
     document.getElementById("bmi-penyakit2").textContent = penyakit2;
     document.getElementById("bmi-penyakit3").textContent = penyakit3;
 
+    function resetForm() {
+    document.getElementById("input-beratbadan").value = '';
+    document.getElementById("input-tinggibadan").value = '';
+    document.getElementById("input-usia").value = '';
+    document.getElementById("male").checked = true;
+
+    document.getElementById("bmi-result").textContent = '0';
+    document.getElementById("bmi-status").textContent = '';
+    document.getElementById("bmi-status2").textContent = '';
+    document.getElementById("bmi-description").textContent = '';
+    document.getElementById("bmi-description2").textContent = '';
+    document.getElementById("bmi-penyakit1").textContent = '...';
+    document.getElementById("bmi-penyakit2").textContent = '...';
+    document.getElementById("bmi-penyakit3").textContent = '...';
+}
+
+// Tambahkan event listener ke tombol reset
+document.querySelector('button[type="reset"]').addEventListener('click', resetForm);
+
     
 
 }
