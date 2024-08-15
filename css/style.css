@@ -1,0 +1,173 @@
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 20px; 
+    }
+    
+    .left-content, .right-content {
+        margin: 10px 0;
+    }
+}
+
+header {
+    display: flex;
+    flex-direction: column; /* Mengatur elemen dalam header secara vertikal */
+    justify-content: center; /* Memusatkan konten secara horizontal */
+    align-items: center;     /* Memusatkan konten secara horizontal */
+    padding: 5px;           /* Menambah ruang di dalam header */
+    
+    text-align: center;      /* Memusatkan teks di dalam elemen header */
+    
+}
+
+header h1{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /*Menambah efek bayangan */
+    width: 100%;
+    background-color: #606C38; /* Warna latar belakang */
+    color: white;
+    padding: 1%;
+}
+
+header p{
+    margin-top: -2%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /*Menambah efek bayangan */
+    width: 100%;
+    background-color: #98A56E; /* Warna latar belakang */
+    color: white;
+    padding: 1%;
+}
+
+aside {
+    display: flex;
+    flex-direction: column; /* Mengatur elemen dalam header secara vertikal */
+    justify-content: center; /* Memusatkan konten secara horizontal */
+    align-items: center;     /* Memusatkan konten secara horizontal */
+    padding: 20px;           /* Menambah ruang di dalam header */
+    background-color: #F8FFF0; /* Warna latar belakang */
+    
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /*Menambah efek bayangan */
+    width: 100%;
+
+}
+
+form{
+    background-color: white;
+    padding: 5%;
+    border-radius: 5%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+main {
+    display: flex;
+    flex-direction: row; /* Menyusun elemen secara horizontal */
+    justify-content: space-between; /* Menyebar kolom dengan jarak yang sama di antara mereka */
+    padding: 20px; /* Menambahkan ruang di dalam main */
+    
+}
+
+.radio-form input[type="radio"] {
+    display: none; /* Menyembunyikan radio button default */
+}
+
+/* Mmbuat radio menjadi button */
+.radio-form label {
+    cursor: pointer;
+    padding: 10px 100px;
+    border-radius: 4px;
+    background-color: #E7F0DC;
+    margin: 5px;
+    text-align: center;
+    transition: background-color 0.2s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /*Menambah efek bayangan */
+}
+
+.radio-form input[type="radio"]:checked + label {
+    background-color: #606C38;
+    color: white;
+}
+
+.radio-form label:hover {
+    background-color: #c0c0c0; /* Warna saat hover */
+}
+
+/* Deskripsi */
+.deskripsi{
+    margin-top: 50px;
+}
+
+.deskripsi h4{
+    margin-bottom: 25px;
+}
+
+
+
+
+/* Kiri */
+.big-zero {
+    font-size: 100px; /* Atur ukuran sesuai kebutuhan */
+    font-weight: bold; /* Opsional: Membuat angka lebih tebal */
+}
+
+.card{
+    width: auto;
+    border-radius: 50px;
+    padding: 5%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Menambahkan style untuk hasil dan penjelasan BMI */
+.status-berat-badan {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #606C38;
+}
+
+#penjelasan-bmi {
+    font-size: 18px;
+    color: #333;
+}
+
+#bmi-result {
+    font-size: 50px; /* Ukuran font hasil BMI */
+    font-weight: bold;
+    margin: 0;
+}
+
+#bmi-status {
+    font-size: 24px; /* Ukuran font status BMI */
+    font-weight: bold;
+    color: #606C38; /* Warna teks status BMI */
+    margin: 10px 0;
+}
+
+#bmi-description {
+    font-size: 18px; /* Ukuran font untuk deskripsi BMI */
+    color: #333; /* Warna teks deskripsi */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#bmi-description2 {
+    font-size: 18px; /* Ukuran font untuk deskripsi BMI */
+    color: #333; /* Warna teks deskripsi */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.deskripsi {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer{
+    background-color: #606C38;
+    color: white;
+}
+
